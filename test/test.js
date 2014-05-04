@@ -1,10 +1,9 @@
 var test = require('tape');
 
 
-test("can require hc",function(t){
+test("can require index.js",function(t){
+    t.plan(1);
+    var index = require('../index.js');
 
-  var hc = require('../index');
-
-  t.ok(hc,'should have export');
-
-})
+    t.ok(index,'should have index.js');
+});

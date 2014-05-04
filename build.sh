@@ -3,7 +3,7 @@ cat ./servershim.js > index.js
 cat ./standalone-framework.js >> index.js
 echo "window.HighchartsAdapter = HighchartsAdapter;" >> index.js
 cat ./highstock.js >> index.js
-echo "console.log(window); module.exports = Highcharts = window.Highcharts;" >> index.js
+echo "module.exports = Highcharts = window.Highcharts;" >> index.js
 cat ./exporting.js >> index.js
 cat ./standalone-framework.js > browser.js
 echo "window.HighchartsAdapter = HighchartsAdapter;" >> browser.js

@@ -1,6 +1,6 @@
 {
   "name": "highstock-browserify",
-  "version": "0.0.0-3.0.10",
+  "version": "1.0.0",
   "description": "Highcharts and Highstock and wrapper for browserify",
   "main": "index.js",
   "browser": "browser.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/golyakov/highstock-browserify",
   "devDependencies": {
-    "browserify": "~3.44.2",
-    "tape": "~2.12.3"
+    "browserify": "~3",
+    "tape": "~2"
   }
 }
