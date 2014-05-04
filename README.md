@@ -5,7 +5,7 @@ browserify bundle for highstock. its free for non commercial http://www.highchar
 
 ```js
 
-var HighCharts = require('highstock-browserify');
+var Highcharts = require('highstock-browserify');
 
 // this is the Highcharts object from the doc 
 // here is the doc 
