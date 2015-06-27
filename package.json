@@ -1,6 +1,6 @@
 {
   "name": "highstock-browserify",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Highcharts and Highstock and wrapper for browserify",
   "main": "index.js",
   "browser": "browser.js",
@@ -22,7 +22,7 @@
     "graph"
   ],
   "author": "Stanislav Golyakov <c1@inbox.ru>",
-  "license": "MIT / http://www.highcharts.com/license/",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/golyakov/highstock-browserify/issues"
   },
