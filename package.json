@@ -1,13 +1,13 @@
 {
   "name": "highstock-browserify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Highcharts and Highstock and wrapper for browserify",
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "./build.sh",
+    "build": "gulp",
     "test": "npm run build && tape test/*.js",
+    "prepublish": "npm run build",
     "postinstall": "npm run build"
   },
   "repository": {
@@ -29,8 +29,10 @@
   "homepage": "https://github.com/golyakov/highstock-browserify",
   "devDependencies": {
     "browserify": "~3",
-    "tape": "~2",
-    "highstock-release": "https://github.com/highslide-software/highstock-release.git#v2.1.6"
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "highstock-release": "https://github.com/highslide-software/highstock-release.git#v2.1.6",
+    "tape": "~2"
   },
   "dependencies": {}
 }
