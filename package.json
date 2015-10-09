@@ -1,6 +1,6 @@
 {
   "name": "highstock-browserify",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Highcharts and Highstock and wrapper for browserify",
   "main": "index.js",
   "browser": "browser.js",
@@ -31,7 +31,7 @@
     "browserify": "~3",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
-    "highstock-release": "https://github.com/highslide-software/highstock-release.git#v2.1.6",
+    "highstock-release": "git://github.com/highslide-software/highstock-release.git#v2.1.6",
     "tape": "~2"
   }
 }
